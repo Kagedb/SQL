@@ -1,0 +1,8 @@
+--Create a books database that includes book titles as well as a rating for each book
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO books VALUES (1, "The Boxcar Children", 3);
+INSERT INTO books VALUES (2, "The Great Gatsby", 5);
+INSERT INTO books VALUES (3, "The Scarlet Letter", 5);
+SELECT * FROM books;
